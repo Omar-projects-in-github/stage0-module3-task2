@@ -35,7 +35,7 @@ class AdvancedNamingConventionTest extends BaseIOTest {
                         && md.getParameters().get(0).getName().getIdentifier().equals("number"))
                 .size() == 1;
 
-        assertFalse(className && staticVarName && ageVarName && firstMethodName && secondMethodName,
+        assertTrue(className && staticVarName && ageVarName && firstMethodName && secondMethodName,
                 "Not all conventions were followed. Check what to call classes, fields, variables and methods.");
     }
 }
