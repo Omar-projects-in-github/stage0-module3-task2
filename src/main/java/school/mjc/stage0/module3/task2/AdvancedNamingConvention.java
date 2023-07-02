@@ -5,4 +5,8 @@ public class AdvancedNamingConvention {
 
     private int age;
     private int phoneNumber;
+
+//    void callToFriend() {}
+
+//    void callByNumber(int number) {}
 }
